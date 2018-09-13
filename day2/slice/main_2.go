@@ -26,4 +26,9 @@ func main(){
 	s3 := make([]int,5)
 	s3[4] =1
 	fmt.Printf("len=%d,cap=%d\n",len(s3),cap(s3))
+
+	s4 := make([]string,5)
+	s4 = append(s4, "w")
+fmt.Println(s4)
+	fmt.Printf("len=%d,cap=%d\n",len(s4),cap(s4))
 }
