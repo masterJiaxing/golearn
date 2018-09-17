@@ -29,6 +29,7 @@ func main(){
 
 	//append函数会智能底层数组的容量增长，一旦超过底层数组容量，通常以2倍容量重新分配底层数组，并复制原来的数据
 	s := make([]int, 0,1) //容量为1
+	fmt.Println(cap(s))
 	oldCap := cap(s)
 	for i:=0;i<20;i++{
 		s = append(s, i)
@@ -37,4 +38,19 @@ func main(){
 			oldCap = newCap
 		}
 	}
+
+
+		var a uint = 60
+		var b uint = 13
+		var c uint = 0
+
+		c = a & b
+		fmt.Printf("第一行 - c 的值为 %d\n", c )
+
+		c = a | b       /* 61 = 0011 1101 */
+		fmt.Printf("第二行 - c 的值为 %d\n", c )
+
+	fmt.Printf("姓名：%q\n","陈家兴")
+	fmt.Printf("性别：%q\n","男")
+	fmt.Printf("手机号码：%d\n",13735885491)
 }
