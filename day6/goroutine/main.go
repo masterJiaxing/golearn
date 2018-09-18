@@ -1,28 +1,34 @@
 package main
-//子协程的关闭   主线程关闭后，子协程会随之关闭
-import (
-	"fmt"
-	"time"
-)
+
+import "fmt"
+
+//此通道只能写，不能读
+func product(out chan<- int){
+	for i:=0;i<10;i++{
+		out <- i * i
+	}
+	close(out)
+}
+
+//此channel只能读，不能写
+func consumer(a <-chan int){
+	for num := range a{
+		fmt.Println("num=",num)
+	}
+}
 
 func main(){
-	//匿名方法
-	go func(){
-		i :=0
-		for{
-			i++
-			fmt.Println("子协程 i=",i)
-			time.Sleep(time.Second)
-		}
-	}()
+	//创建一个双向管道
+	ch := make(chan int)
+	//创建一个单向channel ，只用于写int
+	//var ch2 chan<- int
 
-	i:=0
-	for{
-		i++
-		fmt.Println("main i=",i)
-		time.Sleep(time.Second)
-		if i==2{
-			break
-		}
-	}
+	//创建一个单向channel，只用于读
+	//var ch3 <-chan int
+
+	//生产者，生产数据，写入channel
+	go product(ch)
+
+	//消费者，从channel读取内容,打印
+	consumer(ch)
 }
