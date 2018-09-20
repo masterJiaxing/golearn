@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	var a int = 50
 	var b bool
 	c := "a"
@@ -19,6 +19,6 @@ func main(){
 	fmt.Printf("%x\n", 399922)
 	fmt.Printf("%p\n", &a)
 
-	str := fmt.Sprintf("a=%d",a)
-	fmt.Printf("%q\n",str)
+	str := fmt.Sprintf("a=%d", a)
+	fmt.Printf("%q\n", str)
 }

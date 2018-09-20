@@ -6,37 +6,37 @@ import (
 	"time"
 )
 
-func InitData(s []int){
+func InitData(s []int) {
 	//设置种子
 	rand.Seed(time.Now().UnixNano())
 
-	for i :=0 ;i<len(s);i++{
-		s[i] = rand.Intn(100)//设置100以内的随机数
+	for i := 0; i < len(s); i++ {
+		s[i] = rand.Intn(100) //设置100以内的随机数
 	}
 }
 
 //冒泡排序
-func bubbleSort(s []int){
+func bubbleSort(s []int) {
 	n := len(s)
-	for i :=0;i<n-1;i++{
-		for j:=0;j<n-1-i;j++{
-			if s[j] > s[j+1]{
-				s[j],s[j+1] = s[j+1],s[j]
+	for i := 0; i < n-1; i++ {
+		for j := 0; j < n-1-i; j++ {
+			if s[j] > s[j+1] {
+				s[j], s[j+1] = s[j+1], s[j]
 			}
 		}
 	}
 }
 
-func main(){
+func main() {
 	//初始化一个切片
 	n := 10
 	//创建一个切片，len为10
-	s := make([]int,n)
+	s := make([]int, n)
 
 	InitData(s) //初始化数组
 
-	fmt.Println("排序前",s)
+	fmt.Println("排序前", s)
 
 	bubbleSort(s)
-	fmt.Println("排序后",s)
+	fmt.Println("排序后", s)
 }

@@ -5,14 +5,14 @@ import (
 	"io/ioutil"
 )
 
-func main (){
+func main() {
 	const filename = "day1/exp8/a.txt"
 	//读取文件
-	content,err := ioutil.ReadFile(filename)
+	content, err := ioutil.ReadFile(filename)
 
 	if err != nil {
 		fmt.Println(err)
-	}else{
+	} else {
 		fmt.Printf("%s\n", content)
 	}
 }

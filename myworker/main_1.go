@@ -8,30 +8,29 @@ import (
 	"reflect"
 )
 
-func main () {
+func main() {
 	Marshal()
 	Unmarshal()
 	Buffer()
 }
 
-
 //RawMessage类型是一个保持原本编码的json对象。本类型实现了Marshaler和Unmarshaler接口，用于延迟json的解码或者预计算json的编码
-func Unmarshal(){
+func Unmarshal() {
 
 	type Color struct {
 		Space string
-		Point json.RawMessage//map[string]int // delay parsing until we know the color space
+		Point json.RawMessage //map[string]int // delay parsing until we know the color space
 	}
 
 	type RGB struct {
-		R   uint8
-		G   uint8
-		B   uint8
+		R uint8
+		G uint8
+		B uint8
 	}
 	type YCbCr struct {
-		Y   uint8
-		Cb  int8
-		Cr  int8
+		Y  uint8
+		Cb int8
+		Cr int8
 	}
 	var j = []byte(`[
 		{"Space": "YCbCr", "Point": {"Y": 255, "Cb": 0, "Cr": -10}},
@@ -47,7 +46,7 @@ func Unmarshal(){
 		switch c.Space {
 		case "RGB":
 			dst = new(RGB)
-			fmt.Printf("dstRGB=%+v\n", dst.(*RGB))//空接口转化为RGB结构体
+			fmt.Printf("dstRGB=%+v\n", dst.(*RGB)) //空接口转化为RGB结构体
 		case "YCbCr":
 			dst = new(YCbCr)
 		}
@@ -56,16 +55,15 @@ func Unmarshal(){
 			log.Fatalln("error:", err)
 		}
 
-		fmt.Printf("c=%+v\n",c.Space)
+		fmt.Printf("c=%+v\n", c.Space)
 		fmt.Printf("dst=%+v\n", dst)
-
 
 		//fmt.Printf("c=%+v\n",c.Point["Y"])
 	}
 }
 
 //结构体转json
-func Marshal(){
+func Marshal() {
 	type ColorGroup struct {
 		ID     int
 		Name   string
@@ -76,19 +74,20 @@ func Marshal(){
 		Name:   "Reds",
 		Colors: []string{"Crimson", "Red", "Ruby", "Maroon"},
 	}
-	b, err := json.MarshalIndent(group,"","	")
+	b, err := json.MarshalIndent(group, "", "	")
 	if err != nil {
 		fmt.Println("error:", err)
 	}
 	os.Stdout.Write(b)
 }
 
-func Buffer(){
+func Buffer() {
 	file := os.NewFile(1, "a.txt")
 	file.WriteString("aefawefawf")
 
 }
+
 //打印数据类型
-func isType(x interface{}){
+func isType(x interface{}) {
 	fmt.Printf("type:%+v\n", reflect.TypeOf(x))
 }

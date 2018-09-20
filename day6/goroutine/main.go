@@ -3,21 +3,21 @@ package main
 import "fmt"
 
 //此通道只能写，不能读
-func product(out chan<- int){
-	for i:=0;i<10;i++{
+func product(out chan<- int) {
+	for i := 0; i < 10; i++ {
 		out <- i * i
 	}
 	close(out)
 }
 
 //此channel只能读，不能写
-func consumer(a <-chan int){
-	for num := range a{
-		fmt.Println("num=",num)
+func consumer(a <-chan int) {
+	for num := range a {
+		fmt.Println("num=", num)
 	}
 }
 
-func main(){
+func main() {
 	//创建一个双向管道
 	ch := make(chan int)
 	//创建一个单向channel ，只用于写int

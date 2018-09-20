@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	//定义一个数组，[10]int和[5]int是不同类型
 	//【数字】这个数字作为数组元素的个数
 	var a [10]int
 	var b [5]int
 
-	fmt.Printf("len(a)=%d,len(b)=%d\n",len(a),len(b) )
+	fmt.Printf("len(a)=%d,len(b)=%d\n", len(a), len(b))
 
 	//注意：定义数组时指定的数据元素个数必须是常量
 	// n := 10
@@ -20,13 +20,13 @@ func main(){
 	a[i] = 2
 
 	//赋值，每个元素
-	for i:=0;i<len(a);i++{
-		a[i] = i+1
+	for i := 0; i < len(a); i++ {
+		a[i] = i + 1
 	}
 
 	//打印
 	//第一个返回下标第二个返回元素
-	for i,data := range a{
-		fmt.Printf("a[%d]=%d\n",i,data)
+	for i, data := range a {
+		fmt.Printf("a[%d]=%d\n", i, data)
 	}
 }

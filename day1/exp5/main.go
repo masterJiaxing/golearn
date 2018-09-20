@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	const LENGTH int = 10
 	const WIDTH = 5
 
@@ -11,13 +11,13 @@ func main(){
 	area = LENGTH * WIDTH
 	fmt.Println(area)
 
-	const a,b,c = 1,false,"str"
-	fmt.Println(a,b,c)
+	const a, b, c = 1, false, "str"
+	fmt.Println(a, b, c)
 
-	const(
+	const (
 		Unknown = iota
-		Female = 1
-		Male = 2
+		Female  = 1
+		Male    = 2
 	)
-	fmt.Println(Unknown,Female,Male)
+	fmt.Println(Unknown, Female, Male)
 }

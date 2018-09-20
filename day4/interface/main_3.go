@@ -1,13 +1,14 @@
 package main
+
 //接口的继承和转换
 import "fmt"
 
-type Humaner3 interface{
+type Humaner3 interface {
 	//方法只有声明，没有实现，由别的类型实现
 	sayhi()
 }
 
-type Personer interface{
+type Personer interface {
 	Humaner3
 	sing(lrc string)
 }
@@ -18,14 +19,14 @@ type Student3 struct {
 }
 
 //Student 实现了sayhi()
-func (tmp *Student3) sayhi()  {
+func (tmp *Student3) sayhi() {
 	fmt.Printf("Studet[%s,%d] sayhi\n", tmp.name, tmp.id)
 }
 
-func (tmp * Student3) sing(lrc string){
+func (tmp *Student3) sing(lrc string) {
 	fmt.Println("student 在唱歌：", lrc)
 }
-func main(){
+func main() {
 	//定义一个借口类型的变量
 	var i Personer
 	s := &Student3{"mike", 666}
@@ -41,4 +42,3 @@ func main(){
 
 	ii.sayhi()
 }
-

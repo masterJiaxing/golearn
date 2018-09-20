@@ -4,14 +4,14 @@ import "fmt"
 
 //定义结构体
 type Student2 struct {
-	id       int
-	name     string
-	sex      byte
-	age      int
-	addr     string
+	id   int
+	name string
+	sex  byte
+	age  int
+	addr string
 }
 
-func main(){
+func main() {
 	//定义一个结构体的普通变量
 	var s Student2
 	//操作成员，需要使用.
@@ -35,16 +35,16 @@ func main(){
 	(*p1).name = "mike"
 	p1.sex = 'm'
 	p1.age = 20
-	p1.addr="bj"
-	fmt.Println("p1=",p1)
-	fmt.Println("s1=",s1)
+	p1.addr = "bj"
+	fmt.Println("p1=", p1)
+	fmt.Println("s1=", s1)
 
 	//2通过new 申请一个结构体
 	p2 := new(Student2)
 	p2.id = 1
 	p2.name = "mike"
-	p2.sex='m'
-	p2.age=18
-	p2.addr="bj"
+	p2.sex = 'm'
+	p2.age = 18
+	p2.addr = "bj"
 	fmt.Println("p2=", p2)
 }
