@@ -1,5 +1,4 @@
 package main
-//无缓冲区的channel案例
 import (
 	"fmt"
 )
@@ -28,8 +27,4 @@ func main(){
 		num := <-ch//读取管道内容，没有内容前，阻塞
 		fmt.Println("num=", num)
 	}
-}
-
-func e(a *[]string, b string){
-	*a = append(*a,b)
 }
