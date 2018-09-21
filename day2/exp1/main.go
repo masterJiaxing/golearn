@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func modify(p *int){
+func modify(p *int) {
 	fmt.Println(p)
-	*p=100
+	*p = 100
 }
 
-func main (){
-	var a int =10
+func main() {
+	var a int = 10
 	modify(&a)
 	fmt.Println(a)
 
@@ -22,6 +22,6 @@ func main (){
 	var b int = 999
 	p = &b
 	*p = 5
-	fmt.Println(a)/*a为1000 因为在p又重新指向了b的地址对a不起作用了*/
+	fmt.Println(a) /*a为1000 因为在p又重新指向了b的地址对a不起作用了*/
 	fmt.Println(b)
 }

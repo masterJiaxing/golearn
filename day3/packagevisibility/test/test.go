@@ -3,7 +3,7 @@ package test
 import "fmt"
 
 type Stu struct {
-	Id int
+	Id   int
 	Addr string
 }
 
@@ -11,10 +11,10 @@ type stu struct {
 	id int
 }
 
-func myfunc(){
+func myfunc() {
 	fmt.Println("my func")
 }
 
-func Myfunc(){
+func Myfunc() {
 	fmt.Println("My func")
 }

@@ -2,8 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fec6f1cb-c024-49a0-84ca-b3f909187c04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day8/file/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/mysql/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/mysql/main_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/pachong/haha4.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/pachong/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/form.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/html.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/html1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/httpHeader.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/httpToBaidu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/i.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/mainClient.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/mainClient1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/mainClient2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/mainClient2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/mainService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/mainService1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/mainService2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/tcpClient.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/tcpLink.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/socket/tcpService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/golang/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/golang/controllers/default.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/golang/golang.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/golang/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/golang/models/UserModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/golang/routers/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/golang/static/js/reload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/golang/tests/default_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/golang/views/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/controllers/default.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/controllers/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/controllers/testModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/controllers/testarg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/models/UserModel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/pro.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/routers/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/static/js/reload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/tests/default_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/views/form.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/views/index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/beego/pro/views/test.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainService.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp10/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp10/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp11/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp11/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp12/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp12/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp13/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp13/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp3/add/add.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp3/add/add.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp3/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp3/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp4/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp4/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp5/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp5/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp6/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp6/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp7/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp7/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp8/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp8/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/exp9/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day1/exp9/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/array/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/array/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/array/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/array/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/array/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/array/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/array/main_3.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/array/main_3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/array/main_4.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/array/main_4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/array/main_5.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/array/main_5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/array/main_6.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/array/main_6.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/exp1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/exp1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/exp2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/exp2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/slice/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/slice/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/slice/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/slice/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/slice/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/slice/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day2/slice/main_3.go" beforeDir="false" afterPath="$PROJECT_DIR$/day2/slice/main_3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/map/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/map/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/map/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/map/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/obj/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/obj/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/obj/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/obj/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/obj/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/obj/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/object/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/object/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/object/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/object/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/object/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/object/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/object/main_3.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/object/main_3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/packagevisibility/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/packagevisibility/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/packagevisibility/test/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/packagevisibility/test/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/slice/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/slice/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/struct/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/struct/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/struct/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/struct/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/struct/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day3/struct/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/error/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/error/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/error/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/error/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/interface/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/interface/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/interface/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/interface/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/interface/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/interface/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/interface/main_3.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/interface/main_3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/interface/main_4.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/interface/main_4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/regexp/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/regexp/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/regexp/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/regexp/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/str/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/str/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day4/str/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day4/str/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/fileio/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day5/fileio/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/fileio/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day5/fileio/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/fileio/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day5/fileio/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/fileio/main_3.go" beforeDir="false" afterPath="$PROJECT_DIR$/day5/fileio/main_3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/json/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day5/json/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/json/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day5/json/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5/json/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day5/json/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/goroutine/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/goroutine/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/goroutine/main_10.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main_10.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/goroutine/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/goroutine/main_3.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main_3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/goroutine/main_4.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main_4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/goroutine/main_5.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main_5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/goroutine/main_6.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main_6.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/goroutine/main_7.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main_7.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day6/goroutine/main_8.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main_8.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/goroutine/main_9.go" beforeDir="false" afterPath="$PROJECT_DIR$/day6/goroutine/main_9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/timer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/day7/timer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/timer/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/day7/timer/main_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/timer/main_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/day7/timer/main_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/timer/main_3.go" beforeDir="false" afterPath="$PROJECT_DIR$/day7/timer/main_3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/timer/main_4.go" beforeDir="false" afterPath="$PROJECT_DIR$/day7/timer/main_4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworker/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/myworker/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myworker/main_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/myworker/main_1.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +168,7 @@
     <session id="1073285191">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="32" />
+          <entry key="go" value="33" />
           <entry key="html" value="1" />
           <entry key="ts" value="1" />
           <entry key="vue" value="1" />
@@ -54,7 +176,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="32" />
+          <entry key="Go" value="33" />
           <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="1" />
@@ -62,14 +184,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="3902" />
+          <entry key="go" value="3906" />
           <entry key="html" value="157" />
           <entry key="vue" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="3902" />
+          <entry key="Go" value="3906" />
           <entry key="HTML" value="157" />
           <entry key="PLAIN_TEXT" value="108" />
         </counts>
@@ -91,79 +213,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day7/timer/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" selection-start-line="7" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day7/timer/main_4.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day6/goroutine/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day6/goroutine/main_10.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day6/goroutine/main_9.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day6/goroutine/main_8.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="380">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
-                <element signature="n#style#0;n#input#1;n#form#0;n#!!top" expanded="true" />
+                <element signature="e#32#49#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Documents/Tencent Files/2423568736/FileRecv/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myworker/main_1.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myworker/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -201,9 +258,9 @@
         <option value="$PROJECT_DIR$/day7/timer/main_2.go" />
         <option value="$PROJECT_DIR$/day7/timer/main.go" />
         <option value="$PROJECT_DIR$/myworker/main.go" />
-        <option value="$PROJECT_DIR$/day6/goroutine/main_8.go" />
         <option value="$USER_HOME$/Desktop/index.html" />
         <option value="$USER_HOME$/Documents/Tencent Files/2423568736/FileRecv/index.vue" />
+        <option value="$PROJECT_DIR$/day6/goroutine/main_8.go" />
       </list>
     </option>
   </component>
@@ -213,7 +270,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="165" />
     <option name="y" value="141" />
     <option name="width" value="1416" />
@@ -241,16 +298,6 @@
               <item name="golearn" type="462c0819:PsiDirectoryNode" />
               <item name="day6" type="462c0819:PsiDirectoryNode" />
               <item name="goroutine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golearn" type="462c0819:PsiDirectoryNode" />
-              <item name="day7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golearn" type="462c0819:PsiDirectoryNode" />
-              <item name="myworker" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,10 +411,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11940298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11940298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -574,23 +621,6 @@
     <entry file="file://$PROJECT_DIR$/day6/goroutine/main_9.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/day6/goroutine/main_8.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myworker/main_1.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myworker/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -605,6 +635,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myworker/main_1.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myworker/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day6/goroutine/main_8.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#32#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
