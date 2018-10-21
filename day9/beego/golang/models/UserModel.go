@@ -1,30 +1,35 @@
 package models
 
 import (
+	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	_"github.com/astaxie/beego/session/mysql"
-)
-
-var (
-	db orm.Ormer
 )
 
 type User struct {
 	Id int
 	Username string
 	Password string
-}
 
+}
+var Base BaseModel //全局baseModel
 func init(){
-	orm.Debug=true
-	orm.RegisterDataBase("default", "mysql", "root:root@/test?charset")
-	orm.RegisterModel(new(User))
-	db = orm.NewOrm()
+	TablePrefix := beego.AppConfig.String("mysqlprefix")//获取表前缀
+	orm.RegisterModelWithPrefix(TablePrefix, new(User))//注册带表前缀的表
+	Base = BaseModel{}//初始化baseModel
 }
 
-func ReadUser(users *[]User){
-	qb,_:=orm.NewQueryBuilder("mysql")
-	qb.Select("*").From("user")
-	sql := qb.String()
-	db.Raw(sql).QueryRows(users)
+func (m *User) Find() (error string) {
+	return Base.baseFind(m)
 }
+
+func (m *User) Get() (error string) {
+	return Base.baseGet(m)
+}
+
+
+
+
+
+
+
+

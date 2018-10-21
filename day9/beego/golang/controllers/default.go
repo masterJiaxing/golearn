@@ -1,8 +1,10 @@
 package controllers
 
 import (
+	"fmt"
 	"github.com/astaxie/beego"
 	"golearn/day9/beego/golang/models"
+	_ "golearn/day9/beego/golang/models"
 )
 
 type MainController struct {
@@ -10,10 +12,9 @@ type MainController struct {
 }
 
 func (c *MainController) Get() {
-
-	var users []models.User
-	models.ReadUser(&users)
-	c.Data["Users"] = users
-	c.Data["len"] = len(users)
-	c.TplName = "index.tpl"
+	var user models.User
+	user.Id = 2
+	_ =user.Find()
+	fmt.Printf("%+v",user)
+	c.Ctx.WriteString("1")
 }
