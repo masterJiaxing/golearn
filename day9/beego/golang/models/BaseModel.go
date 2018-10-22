@@ -1,6 +1,7 @@
 package models
 
 import (
+<<<<<<< HEAD
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/astaxie/beego/session/mysql"
@@ -59,3 +60,16 @@ func (*BaseModel) baseGet(m *User) (error string) {
 
 
 
+=======
+	"github.com/astaxie/beego/orm"
+	_"github.com/astaxie/beego/session/mysql"
+)
+
+type BaseModel struct {
+}
+
+func init(){
+	orm.Debug=true
+	orm.RegisterDataBase("default", "mysql", "root:root@/test?charset=utf8",30)
+}
+>>>>>>> d0e64749b3187d3f30b70f07054bd5d786af0f21

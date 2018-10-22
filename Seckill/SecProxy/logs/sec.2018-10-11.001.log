@@ -1,0 +1,21 @@
+2018/10/10 21:12:35.623 [E] [init.go:119]  ping redis failed,err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2018/10/10 21:12:35.623 [E] [main.go:17]  init redis failed,err:dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2018/10/10 21:29:38.029 [D] [init.go:125]  key[%!s(int=0)] values[key:"/cjx/seckill/product" create_revision:2 mod_revision:8 version:7 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517587365,\"Status\":0,\"Total\":10000},{\"ProductId\":1033,\"StartTime\":1517495965,\"EndTime\":1517587365,\"Status\":0,\"Total\":900}]" ]
+
+2018/10/10 21:29:38.029 [D] [init.go:125]  sec info config is[[{1022 1517495965 1517587365 0 10000 0} {1033 1517495965 1517587365 0 900 0}]]
+2018/10/10 21:29:38.030 [I] [main.go:18]  init sec succ
+2018/10/10 21:29:38.030 [D] [asm_amd64.s:2361]  begin watch key:%s
+2018/10/10 21:29:38.141 [I] [asm_amd64.s:2361]  http server Running on http://0.0.0.0:9091
+2018/10/10 21:30:03.743 [D] [init.go:125]  key[%!s(int=0)] values[key:"/cjx/seckill/product" create_revision:2 mod_revision:8 version:7 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517587365,\"Status\":0,\"Total\":10000},{\"ProductId\":1033,\"StartTime\":1517495965,\"EndTime\":1517587365,\"Status\":0,\"Total\":900}]" ]
+
+2018/10/10 21:30:03.744 [D] [init.go:125]  sec info config is[[{1022 1517495965 1517587365 0 10000 0} {1033 1517495965 1517587365 0 900 0}]]
+2018/10/10 21:30:03.745 [I] [main.go:18]  init sec succ
+2018/10/10 21:30:03.745 [D] [asm_amd64.s:2361]  begin watch key:%s
+2018/10/10 21:30:03.858 [I] [asm_amd64.s:2361]  http server Running on http://0.0.0.0:9091
+2018/10/10 21:41:02.096 [D] [init.go:125]  key[%!s(int=0)] values[key:"/cjx/seckill/product" create_revision:2 mod_revision:8 version:7 value:"[{\"ProductId\":1022,\"StartTime\":1517495965,\"EndTime\":1517587365,\"Status\":0,\"Total\":10000},{\"ProductId\":1033,\"StartTime\":1517495965,\"EndTime\":1517587365,\"Status\":0,\"Total\":900}]" ]
+
+2018/10/10 21:41:02.097 [D] [init.go:125]  sec info config is[[{1022 1517495965 1517587365 0 10000 0} {1033 1517495965 1517587365 0 900 0}]]
+2018/10/10 21:41:02.098 [D] [init.go:131]  init service succ,config:&{{127.0.0.1:6379 64 0 300} {127.0.0.1:2379 5 /cjx/seckill /cjx/seckill/product} ./logs/sec.log debug map[1033:0xc04230e090 1022:0xc04230e090] {{0 0} 0 0 0 0}}
+2018/10/10 21:41:02.098 [I] [main.go:18]  init sec succ
+2018/10/10 21:41:02.098 [D] [asm_amd64.s:2361]  begin watch key:%s
+2018/10/10 21:41:02.225 [I] [asm_amd64.s:2361]  http server Running on http://0.0.0.0:9091
